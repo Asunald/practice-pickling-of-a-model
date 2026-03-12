@@ -6,6 +6,9 @@ on:
       - main
   workflow_dispatch:  # 允许手动触发
 
+permissions:
+  contents: write  # 允许创建Release和推送标签
+
 jobs:
   train-and-upload:
     runs-on: ubuntu-latest
