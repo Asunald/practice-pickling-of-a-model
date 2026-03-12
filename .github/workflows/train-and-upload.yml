@@ -47,7 +47,7 @@ jobs:
             🤖 自动训练并发布模型
             
             📅 训练时间: ${{ steps.timestamp.outputs.time }}
-            🔗 Huggingface模型: https://huggingface.co/Asunald/practice-pickling-of-a-model
+            🔗 Huggingface模型: https://huggingface.co/Small-Start/practice-pickling-of-a-model
             
             ## 模型文件
             - student_score_predictor.pkl
